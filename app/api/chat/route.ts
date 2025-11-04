@@ -245,6 +245,7 @@ function tidyArabic(s: string) {
     [/\bpuberty\b/gi, "البلوغ"],
     [/\breproduction\b/gi, "التكاثر"],
     [/\bsexual maturity\b/gi, "النضج الجنسي"],
+    [/\bexact\b/gi, "بالتحديد"],
     [/\s+,/g, "،"],
     [/,\s*/g, "، "],
     [/\s+،/g, "،"],
